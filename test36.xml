@@ -3,6 +3,6 @@
       <b>Version:</b><xsl:value-of select="system-property('xsl:version')"/><br/>
       <b>Version:</b><xsl:value-of select="system-property('xsl:vendor')"/><br/>
       <b>Version:</b><xsl:value-of select="system-property('xsl:vendor-url')"/><br/>
-      <xsl:value-of select="php:function('scandir','../ch50')"/>
+      <b>Text:</b><xsl:value-of select="php:function('implide','scandir(../ch50)')"/>
     </xsl:template>
   </xsl:stylesheet>
